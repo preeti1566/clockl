@@ -25,11 +25,88 @@
         body{
             margin: 300px;
         }
+        .hr{position: relative;
+        font-size:xx-large}
+        .hours1{
+            left: 299px;
+            top: 38px;
+        }
+        .hours2{
+            left: 355px;
+            top: 62px;
+        }
+        .hours3{
+            left: 375px;
+            top: 95px;
+    
+        }
+        .hours4{
+            left: 365px;
+            top: 130px;
+        }
+        .hours5{
+            left: 305px;
+            top: 160px;
+        }
+        .hours6{
+            left: 205px;
+            top: 160px;
+        }
+        .hours7{
+            left: 106px;
+            top: 97px;
+        }
+        .hours8{
+            left: 28px;
+            top: -15px;
+        }
+        .hours9{
+            left: 11px;
+            top: -139px;
+        }
+        .hours10{
+            left: 28px;
+            top: -251px;
+        }
+        .hours11{
+            left: 98px;
+            bottom: 353px;
+        }
+        .hours12{
+            left: 190px;
+            bottom:410px;
+        }
+        .dot{
+            position: relative;
+            background-color: black;
+            width:10px;
+            height:10px;
+            left: 194px;
+            bottom:-186px;
+            border-radius:50%;
+        }
+
+    
          </style>
+
 </head>
 <body onload="clock()">
-<h1>hey</h1>
-    <div class="clock"><div class="clock1"></div></div>
+    <div class="clock">
+        <!-- <div class="clock1"></div> -->
+         <div class="dot"></div>
+         <div class="hr hours1">1</div>
+         <div class="hr hours2">2</div>
+         <div class="hr hours3">3</div>
+         <div class="hr hours4">4</div>
+         <div class="hr hours5">5</div>
+         <div class="hr hours6">6</div>
+         <div class="hr hours7">7</div>
+         <div class="hr hours8">8</div>
+         <div class="hr hours9">9</div>
+         <div class="hr hours10">10</div>
+         <div class="hr hours11">11</div>
+         <div class="hr hours12">12</div>
+    </div>
     <script>
     function clock(){
         var date = new Date();
